@@ -56,11 +56,8 @@
 		},
 		methods: {
 			webpify_extension: function(filename) {
-				console.log(filename);
 				const src= filename.src;
-				console.log(src);
 				const pngJpgOrJPEG = src.substring(src.length - 4);
-				console.log(pngJpgOrJPEG);
 				if(pngJpgOrJPEG === '.jpg'){
 					const allBut = src.substr(0, src.length - 4);
 					return allBut + '.webp'
