@@ -74,6 +74,7 @@
 			getsrc: function(filename) {
 				console.log(filename);
 				const src = filename.src;
+				console.log(src);
 				return String(src)
 			}
 		}
