@@ -2,7 +2,7 @@
 	<div class="flux-image" :style="style">
 		<picture>
 			<source :srcset="webpify_extension(image)" type="image/webp">
-			<img :src="getsrc(image)" alt=""/>
+			<img :src="getsrc(image)"/>
 		</picture>
 	</div>
 </template>
@@ -71,8 +71,10 @@
 					return filename
 				}
 			},
-			getsrc: function(filename){
-				return filename.src
+			getsrc: function(filename) {
+				console.log(filename);
+				const src = filename.src;
+				return String(src)
 			}
 		}
 	};
