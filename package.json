@@ -1,11 +1,11 @@
 {
-  "name": "vue-flux",
-  "version": "6.4.0",
+  "name": "@brightproductions/vue-flux",
+  "version": "7.0.0",
   "description": "Vue image slider",
   "author": "ragnar lotus",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ragnarlotus/vue-flux"
+    "url": "git+https://github.com/ragnarlotus/vue-flux.git"
   },
   "keywords": [
     "vue",
@@ -15,7 +15,9 @@
     "parallax"
   ],
   "license": "MIT",
-  "bugs": "https://github.com/ragnarlotus/vue-flux/issues",
+  "bugs": {
+    "url": "https://github.com/ragnarlotus/vue-flux/issues"
+  },
   "homepage": "https://ragnarlotus.github.com/vue-flux-docs",
   "main": "dist/vue-flux.umd.min.js",
   "scripts": {
@@ -48,5 +50,10 @@
     "vue": "^2.6.11",
     "vue-cosk": "^0.2.5",
     "vue-template-compiler": "^2.6.11"
-  }
+  },
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "dependencies": {}
 }
