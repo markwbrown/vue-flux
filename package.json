@@ -2,10 +2,10 @@
   "name": "@brightproductions/vue-flux",
   "version": "7.0.0",
   "description": "Vue image slider",
-  "author": "ragnar lotus",
+  "author": "mark brown",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ragnarlotus/vue-flux.git"
+    "url": "git+https://github.com/markwbrown/vue-flux.git"
   },
   "keywords": [
     "vue",
@@ -16,9 +16,8 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ragnarlotus/vue-flux/issues"
+    "url": "https://github.com/markwbrown/vue-flux/issues"
   },
-  "homepage": "https://ragnarlotus.github.com/vue-flux-docs",
   "main": "dist/vue-flux.umd.min.js",
   "scripts": {
     "serve": "vue-cli-service serve",
